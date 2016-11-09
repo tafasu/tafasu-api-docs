@@ -21,24 +21,24 @@
 ## สารบัญ
 End-Point                      | หน้าที่
 -------------------------------|----------------------------------------
-[/anime](docs/anime.md)                         | อ่านรายการอนิเมะทั้งหมด และค้นหาอนิเมะ
-[/anime/recent](docs/anime_recent.md)                  | อ่านอนิเมะตอนที่เพิ่งถูกเพิ่มเข้ามา
-[/anime/:alias](docs/anime_alias.md)                  | อ่านข้อมูลของอนิเมะเรื่องที่กำหนด
-[/anime/:alias/projects](docs/anime_project.md)         | อ่านโปรเจคของแฟนซับที่ทำเรื่องนี้
-[/fansub](docs/fansub.md)                        | อ่านรายชื่อแฟนซับทั้งหมด และค้นหาแฟนซับ
-[/fansub/:alias](docs/fansub_alias.md)                 | อ่านข้อมูลแฟนซับที่กำหนด
-[/fansub/:alias/projects](docs/fansub_project.md)        | อ่านโปรเจคทั้งหมดของแฟนซับที่กำหนด
-[/fansub/:alias/recent](docs/fansub_recent.md)          | อ่านตอนอนิเมะที่เพิ่งถูกเพิ่มมาด้วยแฟนซับที่กำหนด
-[/genre](docs/genre.md)                        | อ่านประเภทอนิเมะทั้งหมด
-[/genre/:alias](docs/genre_alias.md)                  | อ่านรายชื่ออนิเมะที่ถูกจัดเป็นประเภทที่กำหนด
-[/news](docs/news.md)                          | อ่านรายชื่อประกาศทั้งหมด
-[/news/:id](docs/news_id.md)                      | อ่านข้อความประกาศที่กำหนด
-[/project](docs/project.md)                       | อ่านโปรเจคทั้งหมด
-[/project/:id](docs/project_id.md)                   | อ่านข้อมูลโปรเจคที่กำหนด
-[/project/:id/episode](docs/project_episode.md)           | อ่านตอนที่ถูกเพิ่มไปยังโปรเจคที่กำหนด
-[/schedule](docs/schedule.md)                      | อ่านตารางปล่อยของแฟนซับ
-[/schedule/:day](docs/schedule_day.md)                 | อ่านตารางของอนิเมะที่จะปล่อยในแต่ละวัน
-[/season](docs/season.md)                        | อ่านรายชื่อซีซั่นทั้งหมด
-[/season/:alias](docs/season_alias.md)                 | อ่านรายชื่ออนิเมะในซีซั่นที่กำหนด
-[/watch](docs/watch.md)                         | อ่านข้อมูลสำหรับดูอนิเมะที่กำหนด
-[ERROR_CODE](docs/error_code.md)                     | รหัสข้อผิดพลาด
+[/anime](anime.md)                         | อ่านรายการอนิเมะทั้งหมด และค้นหาอนิเมะ
+[/anime/recent](anime_recent.md)                  | อ่านอนิเมะตอนที่เพิ่งถูกเพิ่มเข้ามา
+[/anime/:alias](anime_alias.md)                  | อ่านข้อมูลของอนิเมะเรื่องที่กำหนด
+[/anime/:alias/projects](anime_project.md)         | อ่านโปรเจคของแฟนซับที่ทำเรื่องนี้
+[/fansub](fansub.md)                        | อ่านรายชื่อแฟนซับทั้งหมด และค้นหาแฟนซับ
+[/fansub/:alias](fansub_alias.md)                 | อ่านข้อมูลแฟนซับที่กำหนด
+[/fansub/:alias/projects](fansub_project.md)        | อ่านโปรเจคทั้งหมดของแฟนซับที่กำหนด
+[/fansub/:alias/recent](fansub_recent.md)          | อ่านตอนอนิเมะที่เพิ่งถูกเพิ่มมาด้วยแฟนซับที่กำหนด
+[/genre](genre.md)                        | อ่านประเภทอนิเมะทั้งหมด
+[/genre/:alias](genre_alias.md)                  | อ่านรายชื่ออนิเมะที่ถูกจัดเป็นประเภทที่กำหนด
+[/news](news.md)                          | อ่านรายชื่อประกาศทั้งหมด
+[/news/:id](news_id.md)                      | อ่านข้อความประกาศที่กำหนด
+[/project](project.md)                       | อ่านโปรเจคทั้งหมด
+[/project/:id](project_id.md)                   | อ่านข้อมูลโปรเจคที่กำหนด
+[/project/:id/episode](project_episode.md)           | อ่านตอนที่ถูกเพิ่มไปยังโปรเจคที่กำหนด
+[/schedule](schedule.md)                      | อ่านตารางปล่อยของแฟนซับ
+[/schedule/:day](schedule_day.md)                 | อ่านตารางของอนิเมะที่จะปล่อยในแต่ละวัน
+[/season](season.md)                        | อ่านรายชื่อซีซั่นทั้งหมด
+[/season/:alias](season_alias.md)                 | อ่านรายชื่ออนิเมะในซีซั่นที่กำหนด
+[/watch](watch.md)                         | อ่านข้อมูลสำหรับดูอนิเมะที่กำหนด
+[ERROR_CODE](error_code.md)                     | รหัสข้อผิดพลาด
