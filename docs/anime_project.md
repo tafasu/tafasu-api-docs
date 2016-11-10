@@ -6,7 +6,7 @@ Type | Data
 URL | https://www.tafasu.com/api/v1/anime/:alias/project
 HTTP Method | GET
 Parameter | limit, page, fields
-Fields | id, fabsub, fansub.id, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.cover, fansub.logo
+Fields | id, fansub, fansub.id, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.cover, fansub.logo
 Response | JSON (Array)
 
 ## Parameter
