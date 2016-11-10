@@ -30,7 +30,7 @@ cover | ภาพพื้นหลังของแฟนซับนั้น
 logo | ภาพโลโก้ของแฟนซับนั้นๆ
 
 ## ตัวอย่างหน้าที่ใช้ข้อมูลดังกล่าวบนเว็บไซต์ TAFASU
-![](/images/preview-fansub.png)
+![](/images/preview_fansub.png)
 
 ## ตัวอย่าง json
 ```json
