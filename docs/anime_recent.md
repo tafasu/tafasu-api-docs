@@ -2,16 +2,16 @@
 ใช้สำหรับอ่านอนิเมะตอนที่เพิ่งถูกเพิ่มเข้ามา โดยข้อมูลที่ตอบกลับมานั้นจะเรียงตามเวลา
 
 Type | Data
---- | --- 
-URL | https://tafasu.com/api/v1/anime/recent
-HTTP Method | GET 
+--- | ---
+URL | https://www.tafasu.com/api/v1/anime/recent
+HTTP Method | GET
 Parameter | limit, page, fields
 Fields | id, episode, type, anime.id, anime.name, anime.alias, anime.description, anime.thumbnail, anime.season, anime.season.id, anime.season.year, anime.season.name, anime.myanimelist,anime.genre, anime.genre.id, anime.genre.name, anime.genre.alias, fansub, fansub.id, fansub.name, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.logo, hash, project_id, view, date, url
 Response | JSON (array)
 
 ## Parameter
 Parameter | Value
---- | --- 
+--- | ---
 limit | บอกจำนวนข้อมูลที่จะดึงมาแสดง ตั้งแต่ 0-100 (ค่าเริ่มต้น 10)
 page | หน้าข้อมูลปัจจุบัน
 fields | ฟิลล์ข้อมูลที่จะนำมาแสดง แบ่งด้วยลูกน้ำ (,)
@@ -19,7 +19,7 @@ fields | ฟิลล์ข้อมูลที่จะนำมาแสด�
 
 ## Fields
 Fields| value
---- | --- 
+--- | ---
 id | ไอดีของตอนที่ถูกเพิ่มขึ้นมา
 name | ชื่อตอนที่ถูกเพิ่มเข้ามา
 type | ประเภทของตอนที่ถูกเพิ่มเข้ามา มีด้วยกันทั้งสิ้น 7 ประเภทคือ (episode,ova,oad,movie,sp,pv,ona)
