@@ -5,7 +5,7 @@ Type | Data
 --- | ---
 URL | https://www.tafasu.com/api/v1/fansub
 HTTP Method | GET
-Parameter | limit, page, fields
+Parameter | name, alias, limit, page, fields
 Fields | id, description, alias, facebook, cover, cover, logo
 Response | JSON (Array)
 
