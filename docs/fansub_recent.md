@@ -1,4 +1,4 @@
-# Fansub Recent work
+# Fansub Recent
 อ่านอนิเมะตอนล่าสุดที่แฟนซับนี้โพส
 
 Type | Data
@@ -46,7 +46,7 @@ fansub.alias | ชื่อแฟนซับสำหรับใช้ใน u
 fansub.facebook | url เพจเฟสบุ๊คของแฟนซับนั้นๆ
 fansub.cover | ภาพพื้นหลังของแฟนซับนั้นๆ
 fansub.logo | ภาพโลโก้ของแฟนซับนั้นๆ
-ีurl | url สำหรับดูอนิเมะตอนนั้นบน TAFASU
+url | url สำหรับดูอนิเมะตอนนั้นบน TAFASU
 project_id | โปรเจคไอดีตอนนั้น สำหรับค้นหาบน /project/:id
 status | สถานะของโปรเจคนั้นมีด้วยกัน 5 ประเภท ได้แก่ Ongoing, Complete, OnHold, Dropped, Licensed
 

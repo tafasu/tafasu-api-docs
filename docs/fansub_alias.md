@@ -1,4 +1,4 @@
-# Fansub Data
+# Fansub Alias
 อ่านข้อมูลของแฟนซับที่กำหนด โดยใช้ alias หรือ id ตัวอย่างเช่น  https://www.tafasu.com/api/v1/fansub/nishikawafs หรือ https://www.tafasu.com/api/v1/fansub/90 จะได้ข้อมูลแฟนซับของ NishikawaFS กลับมา
 
 Type | Data
@@ -26,7 +26,7 @@ cover | ภาพพื้นหลังของแฟนซับนั้น
 logo | ภาพโลโก้ของแฟนซับนั้นๆ
 
 ## ตัวอย่างหน้าที่ใช้ข้อมูลดังกล่าวบนเว็บไซต์ TAFASU
-![](/images/preview-anime-alias.png)
+![](/images/preview_fansub_alias.png)
 
 ## ตัวอย่าง json
 ```json
