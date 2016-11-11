@@ -1,18 +1,18 @@
 # Watch
-อ่านข้อมูลสำหรับดูอนิเมะที่กำหนด
+อ่านข้อมูลสำหรับดูอนิเมะที่กำหนด โดยใช้ค่า hash ของตอนที่ต้องการ
 
 type | Data
 --- | ---
-URL | https://www.tafasu.com/api/v1/watch
+URL | https://www.tafasu.com/api/v1/watch/:hash
 HTTP Method | GET
-Parameter | limit, page, fields
+Parameter | fields
 Fields | hash, name, type, anime, anime.id, anime.name, anime.alias, anime.description, anime.thumbnail, anime.season, anime.season.id, anime.season.name, anime.myanimelist, anime.genre.id, anime.genre.name, anime.genre.alias, fansub, fansub.id, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.cover, fansub.logo, project_id, view, date, note, cover, stream, stream.name, stream.url, download, download.name,download.url
 Response | JSON (Object)
 
 ## Parameter
 Parameter | value
 --- | ---
-v | ค่า hash ของตอนที่ต้องการดู
+fields | ฟิลล์ข้อมูลที่จะนำมาแสดง แบ่งด้วยลูกน้ำ (,)
 
 ## Fields
 Fields| value
