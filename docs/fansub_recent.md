@@ -57,7 +57,7 @@ status | สถานะของโปรเจคนั้นมีด้ว�
 ```json
 [
   {
-    "id": 938,
+    "hash": "e65tVrFou2",
     "episode": "04",
     "type": "episode",
     "date": "31/10",
@@ -112,13 +112,12 @@ status | สถานะของโปรเจคนั้นมีด้ว�
         "logo": "1476027133.png"
       }
     ],
-    "hash": "e65tVrFou2",
     "url": "https://www.tafasu.com/watch?v=e65tVrFou2",
     "project_id": 58,
     "status": "Ongoing"
   },
   {
-    "id": 937,
+    "hash": "FZRuIQ8Syo",
     "episode": "12",
     "type": "episode",
     "date": "31/10",
@@ -182,7 +181,6 @@ status | สถานะของโปรเจคนั้นมีด้ว�
         "logo": "1476027133.png"
       }
     ],
-    "hash": "FZRuIQ8Syo",
     "url": "https://www.tafasu.com/watch?v=FZRuIQ8Syo",
     "project_id": 257,
     "status": "Complete"

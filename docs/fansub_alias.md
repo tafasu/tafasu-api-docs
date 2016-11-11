@@ -5,15 +5,13 @@ Type | Data
 --- | ---
 URL | https://www.tafasu.com/api/v1/fansub/:alias
 HTTP Method | GET
-Parameter | limit, page, fields
+Parameter | fields
 Fields | id, name, alias, description, facebook, cover, logo
 Response | JSON (object)
 
 ## Parameter
 Parameter | value
 --- | ---
-limit | บอกจำนวนข้อมูลที่จะดึงมาแสดง ตั้งแต่ 0-100 (ค่าเริ่มต้น 10)
-page | หน้าข้อมูลปัจจุบัน
 fields | ฟิลล์ข้อมูลที่จะนำมาแสดง แบ่งด้วยลูกน้ำ (,)
 
 

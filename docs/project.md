@@ -1,9 +1,9 @@
-# Fansub Project
-อ่านโปรเจคของแฟนซับนี้ สำหรับหารหัสโปรเจค เพื่อนำไปหาตอนอนิเมะใน /project/:id เป็นลำดับถัดไป
+# Project
+อ่านโปรเจคทั้งหมดที่มีในระบบ เรียงตามตัวอักษร
 
 Type | Data
 --- | ---
-URL | https://www.tafasu.com/api/v1/fabsub/:alias/projects
+URL | https://www.tafasu.com/api/v1/project
 HTTP Method | GET
 Parameter | limit, page, fields
 Fields | id, anime, anime.id, anime.name, anime.alias, anime.description, anime.thumbnail, anime.season, anime.season.id, anime.season.name, anime.myanimelist, anime.genre.id, anime.genre.name, anime.genre.alias, fansub, fansub.id, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.cover, fansub.logo1
@@ -46,25 +46,25 @@ fansub.logo | ภาพโลโก้ของแฟนซับนั้นๆ
 status | สถานะของโปรเจคนั้น มี 5 สถานนะได้แก่ (Ongoing,OnHold,Complete,Dropped,Licensed)
 
 ## ตัวอย่างหน้าที่ใช้ข้อมูลดังกล่าวบนเว็บไซต์ TAFASU
-![](/images/preview_fansub_project.png)
+
+**ไม่มีภาพของส่วนนี้ใน TAFASU**
 
 ## ตัวอย่าง json
 ```json
 [
   {
-    "id": 58,
+    "id": 49,
     "anime": {
-      "id": "33",
-      "name": "Watashi ga Motete Dousunda",
-      "alias": "watashigamotetedousunda",
-      "description": "เซรินูมะ คาเอะ สาวฟุโจชิที่อ้วนท้วม เมื่อตัวละครโปรดของเธอตายทำให้เครียดและเศร้าอย่างมาก จนน้ำหนักลดลงอย่างรวดเร็ว หลังกลับมาชั้นเรียน เธอกลายเป็นสาวที่มีเสน่ห์ จนมีหนุ่มหลายคนตามจีบ แต่ความเป็นสาว Y ของเธอยังคงเหมือนเดิม",
-      "thumbnail": "https://www.tafasu.com/upload/img/1477222364.jpg",
+      "id": 4,
+      "name": "3月のライオン(Sangatsu no lion)",
+      "alias": "sangatsunolion",
+      "thumbnail": "https://www.tafasu.com/upload/img/1477231251.jpg",
       "season": {
-        "id": "1",
+        "id": 1,
         "year": "2016",
         "name": "Fall"
       },
-      "myanimelist": "https://myanimelist.net/anime/32899/Watashi_ga_Motete_Dousunda",
+      "myanimelist": "https://myanimelist.net/anime/31646/3-gatsu_no_Lion?q=3%20gatsu",
       "genre": [
         {
           "id": 4,
@@ -72,54 +72,58 @@ status | สถานะของโปรเจคนั้น มี 5 สถ�
           "alias": "comedy"
         },
         {
-          "id": 14,
-          "name": "Harem",
-          "alias": "harem"
+          "id": 7,
+          "name": "Drama",
+          "alias": "drama"
         },
         {
-          "id": 33,
-          "name": "Romance",
-          "alias": "romance"
+          "id": 11,
+          "name": "Game",
+          "alias": "game"
         },
         {
-          "id": 35,
-          "name": "School",
-          "alias": "school"
+          "id": 37,
+          "name": "Seinen",
+          "alias": "seinen"
         },
         {
-          "id": 40,
-          "name": "Shoujo",
-          "alias": "shoujo"
+          "id": 44,
+          "name": "Slice of Life",
+          "alias": "slice-of-lice"
+        },
+        {
+          "id": 47,
+          "name": "Sports",
+          "alias": "sports"
         }
       ]
     },
     "fansub": [
       {
-        "id": 90,
-        "name": "NishikawaFS",
-        "description": "Nishikawa Fansub",
-        "alias": "nishikawafs",
-        "facebook": "https://www.facebook.com/nishikawafs",
-        "cover": "http://i.imgur.com/cVcJTxU.png",
-        "logo": "1476027133.png"
+        "id": 113,
+        "name": "Shiniji-FS",
+        "description": "แฟนซับของเหล่าเด็กน้อย ม.ปลายสี่หน่อ ที่อยู่บ้างไม่อยู่บ้าง ตามภาระงานที่มี ผลงานของพวกเขา จะยอดเยี่ยม หรือ ยอดแย่กันแน่ ติดตามได้ที่ Shiniji-FS เลยจ้า（＞ｗ＜）",
+        "alias": "shinijifansub",
+        "facebook": "",
+        "cover": "http://i.imgur.com/a0Z7IK2.jpg",
+        "logo": "1477404410.jpg"
       }
     ],
     "status": "Ongoing"
   },
   {
-    "id": 228,
+    "id": 50,
     "anime": {
-      "id": "148",
-      "name": "Charlotte",
-      "alias": "charlotte",
-      "description": "พลังพิเศษที่พบได้ยากในกลุ่มวัยรุ่น โอโตซากะ ยู เด็กหนุ่มธรรมดาที่พลังได้ปิดบังความสามารถของเขาไว้ จนได้พบ โทโมริ นาโอะ โชคชะตาของผู้ใช้พลังพิเศษได้กำลังจะถูกเปิดเผย",
-      "thumbnail": "https://www.tafasu.com/upload/img/1477821179.jpg",
+      "id": 13,
+      "name": "Fune wo Amu",
+      "alias": "funewoamu",
+      "thumbnail": "https://www.tafasu.com/upload/img/1477231190.jpg",
       "season": {
-        "id": "16",
-        "year": "2015",
+        "id": 1,
+        "year": "2016",
         "name": "Fall"
       },
-      "myanimelist": "https://myanimelist.net/anime/28999/Charlotte",
+      "myanimelist": "https://myanimelist.net/anime/32948/Fune_wo_Amu",
       "genre": [
         {
           "id": 7,
@@ -127,38 +131,29 @@ status | สถานะของโปรเจคนั้น มี 5 สถ�
           "alias": "drama"
         },
         {
-          "id": 35,
-          "name": "School",
-          "alias": "school"
+          "id": 37,
+          "name": "Seinen",
+          "alias": "seinen"
         },
         {
-          "id": 49,
-          "name": "Super Power",
-          "alias": "super-power"
+          "id": 44,
+          "name": "Slice of Life",
+          "alias": "slice-of-lice"
         }
       ]
     },
     "fansub": [
       {
-        "id": 57,
-        "name": "ItaiIku-FS",
-        "description": "Auto Generated by TAFASU",
-        "alias": "itaikufs",
+        "id": 113,
+        "name": "Shiniji-FS",
+        "description": "แฟนซับของเหล่าเด็กน้อย ม.ปลายสี่หน่อ ที่อยู่บ้างไม่อยู่บ้าง ตามภาระงานที่มี ผลงานของพวกเขา จะยอดเยี่ยม หรือ ยอดแย่กันแน่ ติดตามได้ที่ Shiniji-FS เลยจ้า（＞ｗ＜）",
+        "alias": "shinijifansub",
         "facebook": "",
-        "cover": "",
-        "logo": ""
-      },
-      {
-        "id": 90,
-        "name": "NishikawaFS",
-        "description": "Nishikawa Fansub",
-        "alias": "nishikawafs",
-        "facebook": "https://www.facebook.com/nishikawafs",
-        "cover": "http://i.imgur.com/cVcJTxU.png",
-        "logo": "1476027133.png"
+        "cover": "http://i.imgur.com/a0Z7IK2.jpg",
+        "logo": "1477404410.jpg"
       }
     ],
-    "status": "Complete"
+    "status": "Ongoing"
   }
 ]
 ```
