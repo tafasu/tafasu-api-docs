@@ -25,7 +25,7 @@
 ```json
 {
   "error": {
-    "code": 2,
+    "code": 13,
     "message": "This anime was licensed by TAFASU",
     "resource":{
       "licensed":"TAFASU"
