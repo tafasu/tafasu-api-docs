@@ -6,7 +6,7 @@ Type | Data
 URL | https://www.tafasu.com/api/v1/fabsub/:alias/projects
 HTTP Method | GET
 Parameter | limit, page, fields
-Fields | id, anime, anime.id, anime.name, anime.alias, anime.description, anime.thumbnail, anime.season, anime.season.id, anime.season.name, anime.myanimelist, anime.genre.id, anime.genre.name, anime.genre.alias, fansub, fansub.id, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.cover, fansub.logo1
+Fields | id, anime, anime.id, anime.name, anime.alias, anime.description, anime.thumbnail, anime.season, anime.season.id, anime.season.name, anime.myanimelist, anime.genre.id, anime.genre.name, anime.genre.alias, fansub, fansub.id, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.cover, fansub.logo, status,
 Response | JSON (Array)
 
 ## Parameter

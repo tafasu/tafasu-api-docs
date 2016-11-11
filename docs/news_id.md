@@ -3,7 +3,7 @@
 
 Type | Data
 --- | ---
-URL | https://www.tafasu.com/api/v1/news
+URL | https://www.tafasu.com/api/v1/news/:id
 HTTP Method | GET
 Parameter | fields
 Fields |id, title, body, poster, view, date

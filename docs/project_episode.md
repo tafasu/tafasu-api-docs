@@ -3,7 +3,7 @@
 
 Type | Data
 --- | ---
-URL | https://www.tafasu.com/api/v1/news
+URL | https://www.tafasu.com/api/v1/:id/episode
 HTTP Method | GET
 Parameter | limit, page, fields
 Fields | hash, name, url, type, view, date, publish
