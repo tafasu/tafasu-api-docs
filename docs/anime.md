@@ -31,11 +31,11 @@ id | ไอดีอนิเมะ
 name | ชื่อเรื่องอนิเมะ
 alias | ชื่ออนิเมะเมื่อใช้บน url ตัวอย่างเช่น www.tafasu.com/anime/amanchu
 description | รายละเอียดและเรื่องย่อของอนิเมะนั้น
-thumnail | รูปของอนิเมะเรื่องนั้น
+thumbnail | รูปของอนิเมะเรื่องนั้น
 season | object season ของอนิเมะเรื่องนั้น
 season.id | ไอดีของซีซั่นที่อนิเมะเรื่องนี้อยู่
 season.year | ปี ค.ศ. ของอนิเมะ
-season.season | ซีซั่นของอนิเมะ มี 4 ซีซั่นได้แก้ Spring, Summer, Fall, Winter
+season.name | ซีซั่นของอนิเมะ มี 4 ซีซั่นได้แก้ Spring, Summer, Fall, Winter
 myanimelist | ลิ้งค์ของ www.myanimelist.com
 genre | object genre ของอนิเมะเรื่องนี้
 genre.id | ไอดีของ genre อนิเมะเรื่องนี้

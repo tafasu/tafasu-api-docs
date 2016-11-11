@@ -3,7 +3,7 @@
 
 Type | Data
 --- | ---
-URL | https://www.tafasu.com/api/v1/anime/:alias/project
+URL | https://www.tafasu.com/api/v1/anime/:alias/projects
 HTTP Method | GET
 Parameter | limit, page, fields
 Fields | id, fansub, fansub.id, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.cover, fansub.logo
@@ -28,7 +28,7 @@ fansub.alias | ชื่อแฟนซับสำหรับใช้ใน u
 fansub.facebook | url เพจเฟสบุ๊คของแฟนซับนั้นๆ
 fansub.cover | ภาพพื้นหลังของแฟนซับนั้นๆ
 fansub.logo | ภาพโลโก้ของแฟนซับนั้นๆ
-status | สถานะของโปรเจคนั้น มี 4 สถานนะได้แก่ (Ongoing,OnHold,Complete,Dropped)
+status | สถานะของโปรเจคนั้น มี 5 สถานนะได้แก่ (Ongoing,OnHold,Complete,Dropped,Licensed)
 
 ## ตัวอย่างหน้าที่ใช้ข้อมูลดังกล่าวบนเว็บไซต์ TAFASU
 ![](/images/preview_anime_project.png)
