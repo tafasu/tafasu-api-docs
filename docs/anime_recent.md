@@ -6,7 +6,7 @@ Type | Data
 URL | https://www.tafasu.com/api/v1/anime/recent
 HTTP Method | GET
 Parameter | limit, page, fields
-Fields | hash, name, type, anime.id, anime.name, anime.alias, anime.description, anime.thumbnail, anime.season, anime.season.id, anime.season.year, anime.season.name, anime.myanimelist,anime.genre, anime.genre.id, anime.genre.name, anime.genre.alias, fansub, fansub.id, fansub.name, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.logo, hash, project_id, view, date, url
+Fields | hash, name, type, anime.id, anime.name, anime.alias, anime.description, anime.thumbnail, anime.season, anime.season.id, anime.season.year, anime.season.name, anime.myanimelist,anime.genre, anime.genre.id, anime.genre.name, anime.genre.alias, fansub, fansub.id, fansub.name, fansub.description, fansub.alias, fansub.facebook, fansub.cover, fansub.logo, project_id, view, date, url
 Response | JSON (array)
 
 ## Parameter
