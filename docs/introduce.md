@@ -40,5 +40,5 @@ End-Point                      | หน้าที่
 [/schedule/:day](schedule_day.md)                 | อ่านตารางของอนิเมะที่จะปล่อยในแต่ละวัน
 [/season](season.md)                              | อ่านรายชื่อซีซั่นทั้งหมด
 [/season/:alias](season_alias.md)                 | อ่านรายชื่ออนิเมะในซีซั่นที่กำหนด
-[/watch](watch.md)                                | อ่านข้อมูลสำหรับดูอนิเมะที่กำหนด
+[/watch](watch_hash.md)                           | อ่านข้อมูลสำหรับดูอนิเมะที่กำหนด
 [ERROR_CODE](error_code.md)                       | รหัสข้อผิดพลาด
