@@ -109,7 +109,7 @@ url | url สำหรับดูอนิเมะตอนนั้น ตั
     "url": "https://www.tafasu.com/watch?v=2oTzSAtn3X"
   },
   {
-    "id": 1662,
+    "hash": "iC34f6G7vH",
     "name": "01",
     "type": "episode",
     "anime": {
@@ -172,7 +172,6 @@ url | url สำหรับดูอนิเมะตอนนั้น ตั
         "logo": ""
       }
     ],
-    "hash": "iC34f6G7vH",
     "project_id": 361,
     "view": "4",
     "date": "06/11",
